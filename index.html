@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    This is my first website.
-</body>
+<html lang="en" class = "scroll-smooth font-Alumni">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Indian Navy</title>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'VT323', sans-serif;
+}
+
+.grid-container img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+
+        </style>
+    </head>
+
+    <body  class="custom-cursor">
+        <div id = "nav" class ="bg-red-800 fixed top-0 w-[100%] text-[15px] md:text-[30px] ">
+        <nav class="flex justify-center md:justify-around md:space-[5px] p-[0.5cm] text-white">
+            <div class="font-bold text-green-200">Indian Navy</div>
+            <ul class="flex justify-between space-x-3 md:space-x-6 p-2">
+                <span><li><a href="#home" class="hover:underline text-green-200"">Home</a></li></span>
+                <li><a href="#about" class="hover:underline text-green-200"">About</a></li>
+                <li><a href="#FAQ" class="hover:underline text-green-200"">FAQ</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div id="home" class="text-black text-center p-2  rounded-[30px] mt-[4cm] m-[0.5cm] md:m-[3cm] mb-[6cm] md:mb-[15cm]">
+        <p class="text-black-600 text-[90px] md:text-[200px]">INS VIKRANT</p>
+        <p class="text-[30px] md:text-[50px] text-red-500 font-bold ">"Sailing for Freedom, Defending with Honor!"</p>
+        <p class="text-[30px] md:text-[50px] text-purple-900">This website is dedicated to honor the sacrifice of the Indian Navy and our brave soldiers.</p>
+        </div>
+        
+        <div id="about" class="bg-purple-200 rounded-[20px] m-[0.5cm] md:m-[2cm] text-center p-4 border-4 border-blue-500">
+            <p class = "text-[0.5cm] md:text-[2cm] mb-[1cm]">What is Ins Vikrant?</p>
+            <p class ="text-[0.5cm] md:text-[1cm] text-red-500">
+                INS Vikrant is India's first Original aircraft carrier, a symbol of the nation's self-reliance in defense and marine strength. It was adopted into the Indian Navy in September 2022 and is designed to operate a variety of aircrafts. 
+            </p>
+        </div>
+
+         <div style="max-width:780px; margin:auto;">
+  <h2 class="text-2xl text-pink-400">INS VIKRANT</h2>
+  <ul class="mt-4 space-y-2 text-sm">
+   <li class="bg-gray-800 p-3"><strong class="text-pink-300">Vikrant</strong><img src="INSV.jpg"></li>
+   <li class="bg-gray-800 p-3"><strong class="text-pink-300">Also Vikrant</strong><img src="INSV2.jpg"></li>
+   <li class="bg-gray-800 p-3"><strong class="text-pink-300">Obviously Vikrant</strong><img src="INSV3.jpg"></li>
+  </ul>
+ </div>
+
+        <div id="impact" class="text-center m-[0.5cm] md:m-[2cm]">
+            <p class="text-red-700 text-[0.5cm] md:text-[2cm]">
+                INS VIKRANT
+            </p>
+            <div class="flex justify-around space-x-4 text-yellow-400 text-[0.5cm] md:text-[1cm]">
+                <div>
+                    <p>Size</p>
+                    <P>262 meters</P>
+                </div>
+                <div>
+                    <p>Defense System</p>
+                    <P>Barak 1, Barak 8, Ak-630 CIWS</P>
+                </div>
+                <div>
+                    <p>Aircraft carrying capacity</p>
+                    <p>30+</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="FAQ" class="text-left m-[0.5cm] md:m-[2cm] p-4 bg-purple-200 rounded-[20px] border-4 border-blue-500 font-Alumni">
+            <p class="text-center text-3xl">Frequently Asked Questions (FAQ)</p>
+            <p>
+                1. Is INS VIKRANT the best ?
+                <br>
+                -Obviously bruh !!
+            </p>
+            <p>
+                2. Which aircraft is the best?
+                <br>
+                -All of 'em bro !!
+            </p>
+            <p>
+                3. Will it be the best in the world?
+                <br>
+                -Till eternity !!
+            </p>
+        </div>
+
+        <footer class="text-center text-green-200">Made to honor all the sacrifices for our safety!</footer>
+    </body>
 </html>
